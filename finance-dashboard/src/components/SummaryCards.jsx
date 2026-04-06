@@ -19,8 +19,10 @@ export default function SummaryCards({ data }) {
 function Card({ title, value }) {
   return (
     <div className="neu p-6 h-36 flex flex-col justify-between hover:scale-[1.02] transition duration-300">
-      <h2 className="text-gray-700 text-sm font-semibold">{title}</h2>
-      <p className="text-3xl font-bold text-gray-800">₹{value}</p>
+      <h2 className="text-gray-500 dark:text-gray-400 text-sm">{title}</h2>
+      <p className="text-2xl font-bold mt-2 text-gray-800 dark:text-white">
+        ₹{value}
+      </p>
     </div>
   );
 }

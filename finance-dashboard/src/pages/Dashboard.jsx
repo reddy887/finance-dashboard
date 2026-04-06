@@ -29,7 +29,9 @@ export default function Dashboard({ data, role, setData }) {
 
       {/* REPORTS */}
       <div className="neu p-6 h-[350px] flex flex-col gap-4">
-        <h2 className="text-gray-700 text-sm font-semibold">Reports</h2>
+        <h2 className="text-gray-700 text-sm font-semibold dark:text-white">
+          Reports
+        </h2>
 
         <div className="text-sm space-y-2">
           <p>Total: {data.length}</p>
@@ -50,7 +52,7 @@ export default function Dashboard({ data, role, setData }) {
 
       {/* BUDGET */}
       <div className="neu p-6 h-[350px] flex flex-col justify-between">
-        <h2 className="text-gray-700 font-semibold">Budget</h2>
+        <h2 className="text-gray-700 font-semibold dark:text-white">Budget</h2>
 
         {/* TEXT */}
         <div className="space-y-2 text-sm text-gray-600">
